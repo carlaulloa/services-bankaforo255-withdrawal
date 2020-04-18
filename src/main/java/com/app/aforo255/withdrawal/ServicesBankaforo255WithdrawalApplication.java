@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServucesBankaforo255WithdrawalApplication {
+public class ServicesBankaforo255WithdrawalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServucesBankaforo255WithdrawalApplication.class, args);
+		SpringApplication.run(ServicesBankaforo255WithdrawalApplication.class, args);
 	}
 
 }

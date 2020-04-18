@@ -21,7 +21,7 @@ public class WithdrawalEventController {
 	@Autowired WithdrawalEventProducer withdrawalEventProducer;
 	private @Autowired ITransactionService transactionService;
 	
-	@PostMapping("/v1/withdrawalEvent")
+	@PostMapping("/v1/withdrawal-event")
 	public ResponseEntity<Transaction> postLibraryEvent(@RequestBody Transaction transactionEvent)
 		throws JsonProcessingException {
 		LOGGER.info("antes sendWithdrawalEvent_Approach3");
